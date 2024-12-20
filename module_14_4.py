@@ -11,7 +11,7 @@ from aiogram.types import InputFile
 import asyncio
 from crud_functions import *
 
-API_TOKEN = '7900008680:AAGVQwhIgzJ5hVbePCxThCvL9j9E60Avs18'  # UrbanSergeiZhuk
+API_TOKEN = '7900008680'
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot, storage=MemoryStorage())
